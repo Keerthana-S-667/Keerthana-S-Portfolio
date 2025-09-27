@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Portfolio</title>
+  <style>
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: #222;
+      display: flex;
+      justify-content: center;
+    }
+    li a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    li a:hover {
+      background: #444;
+    }
+    .active a {
+      background: #444;
+    }
+
+   
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #94c0d299, #47737b);
+      color: #333;
+    }
+
+  
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #374b58;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      color: #efb9b9;
+    }
+    p {
+      color: #e3d3d3;
+    }
+
+   
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 25px;
+    }
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #eee;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s, background 0.3s;
+    }
+    .social-links a:hover {
+      transform: scale(1.1);
+      background: #ddd;
+    }
+    .social-links img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li class="active"><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out to me on any of these platforms:</p>
+
+    <div class="social-links">
+     
+      <a href="https://www.linkedin.com/in/keerthana-s-023552331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+     
+      <a href="https://github.com/Keerthana-S-667" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+      </a>
+     
+      <a href="https://leetcode.com/u/keerthana_667/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" alt="LeetCode">
+      </a>
+      
+      <a href="https://www.instagram.com/keerthana_shanmugham?igsh=ZDZnODhheDRhNHRq" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+      </a>
+    </div>
+  </div>
+</body>
+</html>

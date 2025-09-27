@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: #222;
+      display: flex;
+      justify-content: center;
+    }
+    li a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    li a:hover {
+      background: #444;
+    }
+    .active a {
+      background: #444;
+    }
+
+    
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #94c0d299, #47737b);
+      color: #7b6868;
+    }
+
+   
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #374b58;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(7, 66, 111, 0.729);
+      text-align: center;
+    }
+
+    .container img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 28px;
+      color: #efb9b9;
+    }
+    p {
+      font-size: 16px;
+      color: #e3d3d3;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="container">
+    <img src="profile.jpg.jpg" alt="My photo">
+    <h1>Hi, I'm Keerthana 👋</h1>
+    <p>I’m Keerthana, a Computer Science student passionate about Artificial Intelligence 
+        and Machine Learning, while also learning full stack development to build complete 
+        end-to-end solutions. I enjoy exploring how data, algorithms, and web technologies 
+        can come together to solve real-world problems. My journey is all about learning, 
+        experimenting, and growing into a well-rounded developer who can work on both 
+        intelligent systems and user-friendly applications.</p>
+  </div>
+</body>
+</html>

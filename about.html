@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Portfolio</title>
+  <style>
+    /* Navbar */
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: #222;
+      display: flex;
+      justify-content: center;
+    }
+    li a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    li a:hover {
+      background: #444;
+    }
+    .active a {
+      background: #444;
+    }
+
+    /* Body */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #94c0d299, #47737b);
+      color: #333;
+    }
+
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background:#374b58;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      color: #efb9b9;
+    }
+    h2 {
+      margin-top: 20px;
+      color: #a4bec3;
+    }
+    p {
+      font-size: 16px;
+      color: #e3d3d3;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .fact-box {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #333;
+    }
+    @media(max-width:600px){
+      .facts {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="active"><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p>
+      Hi, I’m <strong>Keerthana</strong> — a Computer Science student passionate about 
+      <strong>Artificial Intelligence and Machine Learning</strong>, while also learning 
+      <strong>full stack development</strong> to build complete end-to-end solutions.  
+      I’m curious about how technology can make life better, and I enjoy experimenting 
+      with new ideas, improving my coding skills, and learning every day.
+    </p>
+
+    <h2>Quick Facts</h2>
+    <div class="facts">
+      <div class="fact-box"><b>College:</b> Easwari Engineering College</div>
+      <div class="fact-box"><b>Location:</b> Chennai, India</div>
+      <div class="fact-box"><b>Interests:</b> AI/ML, Full Stack Development, Problem Solving</div>
+      <div class="fact-box"><b>Availability:</b> Open to internships & collaborations</div>
+    </div>
+  </div>
+</body>
+</html>
